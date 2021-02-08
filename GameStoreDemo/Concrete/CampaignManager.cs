@@ -12,15 +12,15 @@ namespace GameStoreDemo.Concrete
         {
             Console.WriteLine(campaign.Name + " is added!");
         }
+        public void Update(Campaign campaign)
+        {
+            Console.WriteLine(campaign.Name + " is updated!");
+        }
 
         public void Delete(Campaign campaign)
         {
             Console.WriteLine(campaign.Name + " is deleted!");
         }
-
-        public void Update(Campaign campaign)
-        {
-            Console.WriteLine(campaign.Name + " is updated!");
-        }
+        
     }
 }

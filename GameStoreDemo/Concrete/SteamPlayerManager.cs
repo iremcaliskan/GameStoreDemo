@@ -27,15 +27,5 @@ namespace GameStoreDemo.Concrete
             }
         }
 
-        public override void UpdateInformation(Player player)
-        {
-            base.UpdateInformation(player);
-        }
-
-        public override void DeleteAccount(Player player)
-        {
-            base.DeleteAccount(player);
-        }
-
     }
 }

@@ -7,8 +7,8 @@ namespace GameStoreDemo.Abstract
 {
     public interface ISaleService
     {
-        void Sale(Player player, Game game, Campaign campaign);
         void DiscountSend(Player player, Game game, Campaign campaign);
+        void Sale(Player player, Game game, Campaign campaign);
 
     }
 }

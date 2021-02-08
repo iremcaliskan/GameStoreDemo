@@ -27,7 +27,7 @@ namespace GameStoreDemo
 
             BasePlayerManager playerManager = new SteamPlayerManager(new MernisServiceAdapter());
             //playerManager.Register(new Player() { DateOfBirth = new DateTime(1997, 1, 5).Year, PlayerId = 0, FirstName = "İrem", LastName = "Çalışkan", NationalityId = 12345678912 });
-            // correct TC is working!
+            // correct NationalityId is working!
 
             BasePlayerManager playerManager1 = new EpicGamesPlayerManager();
             playerManager1.Register(new Player() { DateOfBirth = new DateTime(1997, 1, 5).Year, PlayerId = 0, FirstName = "İrem", LastName = "Çalışkan", NationalityId = 12345678912 });
@@ -43,12 +43,14 @@ namespace GameStoreDemo
                 NationalityId = 1234567891
 
             };
+
             Game game1 = new Game()
             {
                 GameId = 0,
                 Name = "PUBG",
                 Price = 50
             };
+
             Campaign campaign1 = new Campaign()
             {
                 CampaignId = 0,
